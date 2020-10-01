@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite 1">
+    <test name="Configuration Annotation Tests">
+        <classes>
+            <class name="Tests.TestNGAnnotations">
+                <methods>
+                    <include name = "searchCustomer"/>
+                    <include name = "searchProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
